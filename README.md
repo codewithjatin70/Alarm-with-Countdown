@@ -1,33 +1,29 @@
-# Alarm-with-Countdown
-Alarm with Countdown is a beginner-friendly Python project that allows users to set an alarm for a specific number of seconds. Once the countdown completes, the program reminds the user to complete their task with a custom message. It uses Python’s built-in time module and demonstrates basic concepts of Object-Oriented Programming (OOP).
+# ⏰ Alarm with Countdown
 
-# ⏰ Python Alarm with Countdown
-
-A simple yet effective **command-line alarm timer in Python** that lets you set an alarm for a specific number of seconds. Once the timer is up, it reminds you to perform your task with a custom message.
+A simple and effective **command-line alarm timer in Python**. Set an alarm in seconds; when the time is up, the program reminds you with a custom message.
 
 ---
 
 ## 🧠 Features
 
-- Set an alarm in seconds ⏳  
-- Input your **name** and **task**
-- Auto-countdown using `time.sleep()`  
-- Notify with a clear message when time is up 🔔
-- Clean OOP-based design (Class-based)
+- Input your **name**, **task**, and **countdown time in seconds**
+- Simple countdown using `time.sleep()`
+- Alert message when time's up:  
+  > “⏰ Time's up, <name>! Do your task: <task>”
+- Built using Object-Oriented Programming (OOP)
 
 ---
 
-## 🧾 Requirements
+## 🛠️ Requirements
 
 - Python 3.x  
-- No external libraries required (`time` module is built-in)
+- No external libraries – uses built-in `time` module
 
 ---
 
-## 🧑‍💻 How to Use
+## 🚀 How to Use
 
-1. Clone the repository or copy the code.
-2. Run the file using Python:
-
-```bash
-python alarm_timer.py
+1. Clone or download the repo.
+2. Run it:
+   ```bash
+   python alarm_with_countdown.py
